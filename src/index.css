@@ -1,27 +1,81 @@
 body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  font-family: sans-serif;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.calculator {
+  display: flex;
+  flex-direction: column;
+  width: 480px;
+  height: 522px;
+  background-color: #858694;
+  margin: 16px;
+}
+
+.btn-xlg {
+  width: 117px;
+  height: 90px;
+}
+
+.display {
+  height: 110px;
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  text-align: end;
+  padding-right: 10px;
+}
+
+.keypad {
+  display: flex;
+  gap: 6px;
+}
+
+.zero {
+  width: 236px;
+}
+
+.screen-status {
+  display: flex;
+  gap: 2px;
+}
+
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.btn-dark,
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:visited {
+  background-color: #f5913e !important;
+  color: black !important;
+  border: none !important;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited {
+  background-color: #e0e0e0 !important;
+  color: black !important;
+  border: none !important;
+}
+
+.non-operators {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.btn {
+  color: black;
 }
