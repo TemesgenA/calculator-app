@@ -1,12 +1,15 @@
+import React, { Component } from 'react';
+import { render } from '@testing-library/react';
 import './App.css';
 import Calculator from './components/Calculator';
 
-function App() {
-  return (
-    <div className="App">
+class App extends React.Component {
+  render() {
+    return( <div className = "App" >
       <Calculator />
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
