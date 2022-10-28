@@ -24,14 +24,14 @@ class Calculator extends Component {
                             </button>
                         </div>
                         <div className="digits">
-                            <button type="button" className="one btn btn-secondary btn-xlg">
-                                1
+                            <button type="button" className="seven btn btn-secondary btn-xlg">
+                                7
                             </button>
-                            <button type="button" className="two btn btn-secondary btn-xlg">
-                                2
+                            <button type="button" className="eight btn btn-secondary btn-xlg">
+                                8
                             </button>
-                            <button type="button" className="three btn btn-secondary btn-xlg">
-                                3
+                            <button type="button" className="nine btn btn-secondary btn-xlg">
+                                9
                             </button>
                             <button type="button" className="four btn btn-secondary btn-xlg">
                                 4
@@ -42,14 +42,14 @@ class Calculator extends Component {
                             <button type="button" className="six btn btn-secondary btn-xlg">
                                 6
                             </button>
-                            <button type="button" className="seven btn btn-secondary btn-xlg">
-                                7
+                            <button type="button" className="one btn btn-secondary btn-xlg">
+                                1
                             </button>
-                            <button type="button" className="eight btn btn-secondary btn-xlg">
-                                8
+                            <button type="button" className="two btn btn-secondary btn-xlg">
+                                2
                             </button>
-                            <button type="button" className="nine btn btn-secondary btn-xlg">
-                                9
+                            <button type="button" className="three btn btn-secondary btn-xlg">
+                                3
                             </button>
                             <button type="button" className="zero btn btn-secondary btn-xlg">
                                 0
