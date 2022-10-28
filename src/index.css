@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   width: 480px;
   height: 522px;
-  background-color: rgb(92, 92, 92);
+  background-color: #858694;
   margin: 16px;
 }
 
@@ -52,8 +52,24 @@ body {
   gap: 2px;
 }
 
+.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
+  background-color: #F5913E !important;
+  color: black !important;
+  border: none !important;
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+  background-color: #E0E0E0 !important;
+  color: black !important;
+  border: none !important;
+}
+
 .non-operators {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+}
+
+.btn {
+  color: black;
 }
