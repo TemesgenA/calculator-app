@@ -52,14 +52,20 @@ body {
   gap: 2px;
 }
 
-.btn-dark, .btn-dark:hover, .btn-dark:active, .btn-dark:visited {
-  background-color: #F5913E !important;
+.btn-dark,
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:visited {
+  background-color: #f5913e !important;
   color: black !important;
   border: none !important;
 }
 
-.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
-  background-color: #E0E0E0 !important;
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited {
+  background-color: #e0e0e0 !important;
   color: black !important;
   border: none !important;
 }
