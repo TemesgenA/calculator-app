@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
-import { render } from '@testing-library/react';
+import React from 'react';
 import './App.css';
 import Calculator from './components/Calculator';
 
+// eslint-disable-next-line react/prefer-stateless-function
 class App extends React.Component {
   render() {
-    return( <div className = "App" >
-      <Calculator />
+    return (
+      <div className="App">
+        <Calculator />
       </div>
     );
   }
