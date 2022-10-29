@@ -1,27 +1,31 @@
-/* eslint-disable react/prop-types */
-import React from 'react';
-// import calculate from '../logic/calculate';
+import React, { useState } from 'react';
+import calculate from '../logic/calculate';
 import Buttons from './Buttons';
 import Display from './Display';
 
-/* eslint-disable react/prefer-stateless-function */
-/* eslint-disable react/destructuring-assignment */
+const Calculator = () => {
+  const [state, setState] = useState({
+    total: '0',
+    next: null,
+    operation: null,
+  });
 
-class Calculator extends React.Component {
-  render() {
-    return (
-      <div className="calculator">
-        <Display
-          total={this.props.total}
-          operation={this.props.operation}
-          next={this.props.next}
-        />
-        <Buttons
-          clickHandler={this.props.clickHandler}
-        />
-      </div>
-    );
-  }
-}
+  const clickHandler = (event) => {
+    setState({ ...setState, ...calculate(state, event) });
+  };
+
+  return (
+    <div className="calculator">
+      <Display
+        total={state.total}
+        operation={state.operation}
+        next={state.next}
+      />
+      <Buttons
+        clickHandler={clickHandler}
+      />
+    </div>
+  );
+};
 
 export default Calculator;
