@@ -7,7 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 480px;
-  height: 522px;
+  height: auto;
   background-color: #858694;
   margin: 16px;
 }
@@ -28,7 +28,8 @@ body {
 
 .keypad {
   display: flex;
-  gap: 6px;
+  gap: 2px;
+  padding: 2px;
 }
 
 .zero {
@@ -73,7 +74,7 @@ body {
 .non-operators {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 2px;
 }
 
 .btn {
