@@ -59,11 +59,11 @@ class Buttons extends React.Component {
         </div>
         {/* Arithmetic operation keys */}
         <div className="operators">
-          <button type="button" className="btn btn-dark btn-xlg" onClick={() => this.props.clickHandler('/')}>
-            /
+          <button type="button" className="btn btn-dark btn-xlg" onClick={() => this.props.clickHandler('÷')}>
+            ÷
           </button>
-          <button type="button" className="btn btn-dark btn-xlg" onClick={() => this.props.clickHandler('*')}>
-            *
+          <button type="button" className="btn btn-dark btn-xlg" onClick={() => this.props.clickHandler('x')}>
+            x
           </button>
           <button type="button" className="btn btn-dark btn-xlg" onClick={() => this.props.clickHandler('-')}>
             -
