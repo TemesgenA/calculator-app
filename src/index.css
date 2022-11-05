@@ -9,7 +9,7 @@ body {
   width: 480px;
   height: auto;
   background-color: #858694;
-  margin: 16px;
+  margin-right: 1em;
 }
 
 .btn-xlg {
@@ -128,11 +128,6 @@ body {
 
 .calculator-txt {
   text-align: left;
-
-}
-
-.calculator {
-  margin-right: 1em;
 }
 
 .quote {
@@ -147,4 +142,3 @@ body {
 .quote blockquote {
   margin: 1em;
 }
-
