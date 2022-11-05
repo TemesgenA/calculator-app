@@ -15,15 +15,18 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator">
-      <Display
-        total={state.total}
-        operation={state.operation}
-        next={state.next}
-      />
-      <Buttons
-        clickHandler={clickHandler}
-      />
+    <div className="calculator-page">
+      <h2 className="calculator-txt">Let us do some math</h2>
+      <div className="calculator">
+        <Display
+          total={state.total}
+          operation={state.operation}
+          next={state.next}
+        />
+        <Buttons
+          clickHandler={clickHandler}
+        />
+      </div>
     </div>
   );
 };

@@ -85,12 +85,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
-  margin: 0 auto;
+  margin: 1em 1em;
 }
 
 .navigation h1 {
   font-size: 2.2rem;
+  text-align: left;
 }
 
 .navigation > ul {
@@ -113,19 +113,26 @@ body {
 }
 
 .home-content {
-  width: 70%;
-  margin: 0 auto;
+  margin: 1em 1em;
+  text-align: left;
   background: rgba(255, 255, 255, 0.75);
-  padding: 1em;
   border-radius: 1em;
 }
 
 .calculator-page {
-  width: 70%;
-  margin: 0 auto;
+  margin: 1em 1em;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 10rem;
+  padding-bottom: 1em;
+}
+
+.calculator-txt {
+  text-align: left;
+
+}
+
+.calculator {
+  margin-right: 1em;
 }
 
 .quote {
@@ -140,3 +147,4 @@ body {
 .quote blockquote {
   margin: 1em;
 }
+
