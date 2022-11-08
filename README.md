@@ -1,6 +1,6 @@
-# calculator-web-app
+# calculator-app
 
-"Calculator-Web-App" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
+"Calculator-App" is a web app for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
 
 ## Built With
 
@@ -12,17 +12,17 @@
 
 ### Tools
 
-- Webpack
+- react-router
 - Git
 - npm
 
 ### Framework
 
-- React
+- ReactJS
 
 ## Live Demo (if available)
 
-[calculator-web-app](https://temesgena.github.io/my-list/dist/)
+[calculator-app](https://calculator-app-temesgen.netlify.app/)
 
 ### Prerequisites
 

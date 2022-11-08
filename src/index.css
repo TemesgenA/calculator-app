@@ -9,7 +9,7 @@ body {
   width: 480px;
   height: auto;
   background-color: #858694;
-  margin: 16px;
+  margin-right: 1em;
 }
 
 .btn-xlg {
@@ -79,4 +79,66 @@ body {
 
 .btn {
   color: black;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 1em;
+}
+
+.navigation h1 {
+  font-size: 2.2rem;
+  text-align: left;
+}
+
+.navigation > ul {
+  display: flex;
+}
+
+.navigation > ul > li {
+  list-style: none;
+  padding: 0 1.5rem;
+  border-left: 1.4px solid black;
+}
+
+.navigation > ul > li:first-child {
+  border: none;
+}
+
+.navigation > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-content {
+  margin: 1em 1em;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 1em;
+}
+
+.calculator-page {
+  margin: 1em 1em;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+}
+
+.calculator-txt {
+  text-align: left;
+}
+
+.quote {
+  width: 60%;
+  margin: 6rem auto;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.quote figcaption,
+.quote blockquote {
+  margin: 1em;
 }
